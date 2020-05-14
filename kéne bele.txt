@@ -1,0 +1,14 @@
+grid layout a bit
+api
+sass/cscc
+css animations - ezek fasterek
+
+
+
+
+
+
+riport-------------------------------------
+css animations - ezek fasterek
+sass- ugyan az a betuméretet hasznaltuk
+json

@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: arial;
+}
+
+nav {
+    width: 100%;
+    height: 23vh;
+    border-bottom: 1px solid black;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    transition: 0.2s;
+}
+
+nav.navbar_active {
+    background-color: black;
+    transition: 0.8s;
+    opacity: 0.5;
+    height: 10vh;
+    color: white;
+}
+
+.cimer {
+    height: 120px;
+    margin: 10px 5px 10px 50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cimer_small {
+    height: 50px;
+    transition: ease-out 0.8s;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    align-items: center;
+
+
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: green;
+    list-style: none;
+    text-transform: uppercase;
+
+
+}
+
+
+.nav_links li {
+
+    list-style: none;
+}
+
+#burger_menu {
+    margin: auto;
+    display: none;
+
+}
+
+#burger_menu div {
+    background-color: black;
+    height: 3px;
+    width: 25px;
+    margin: 5px;
+    transition: 1s;
+}
+
+.mainn {
+    height: 120vh;
+    width: 100%;
+    padding: 200px 100px;
+    display: block;
+
+}
+
+
+
+.blue
+{
+    border-bottom: 1px solid black;
+    height: 100vh;
+    width: 100%;
+}
+.red
+{
+
+    height: 100vh;
+    width: 100%;
+    padding: 50px;
+}
+.appear_paragraph {
+    width: 50%;
+    height: auto;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+    transform: translateY(40px);
+    color: black;
+}
+
+.appear_paragraph_on {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkslategray;
+    bottom: 0px;
+    opacity: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    #burger_menu {
+        display: block;
+        position: fixed;
+        right: 35px;
+        top: 35px;
+
+    }
+
+    nav {
+        background-color: navy;
+        background: none;
+        border: none;
+
+
+    }
+
+    nav.navbar_active {
+        background: none;
+
+    }
+
+    .cimer {
+        display: none;
+    }
+
+    .nav_links {
+        position: fixed;
+        right: 0;
+        height: 100vh;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        transform: translateX(100%);
+
+    }
+
+    .nav_links_clicked {
+        transform: translateX(0%);
+        transition: transform 0.5s ease-in;
+
+    }
+
+
+    .mainn {
+        height: 120vh;
+        width: 100%;
+        padding: 80px 10px;
+
+    }
+    .appear_text {
+    width: 100%;
+
+}
+
+}
+
+
+
+.csik1_a {
+    transform: rotate(-45deg) translate(-5px, 0px);
+}
+
+.csik2_a {
+    display: none;
+    transition: 2s;
+}
+
+
+.csik3_a {
+    transform: rotate(45deg) translate(-5px, 0px);
+}
