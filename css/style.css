@@ -7,11 +7,15 @@
 body {
 
     font-family: arial;
+    margin: 1px;
+    display: block;
+
 }
 
 nav {
+    background-color: #E7F5FF;
     width: 100%;
-    height: 23vh;
+    height: 15vh;
     border-bottom: 1px solid black;
     opacity: 0.7;
     display: flex;
@@ -21,7 +25,7 @@ nav {
 }
 
 nav.navbar_active {
-    background-color: black;
+    background-color: white;
     transition: 0.8s;
     opacity: 0.5;
     height: 10vh;
@@ -29,8 +33,8 @@ nav.navbar_active {
 }
 
 .cimer {
-    height: 120px;
-    margin: 10px 5px 10px 50px;
+    height: 80px;
+    margin: auto 5px auto 50px;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -43,7 +47,7 @@ nav.navbar_active {
 .nav_links {
     display: flex;
     justify-content: space-around;
-    width: 35%;
+    width: 45%;
     align-items: center;
 
 
@@ -51,9 +55,10 @@ nav.navbar_active {
 
 .nav_links li a {
     text-decoration: none;
-    color: green;
+    color: #2B7DBD;
     list-style: none;
     text-transform: uppercase;
+
 
 
 }
@@ -79,10 +84,10 @@ nav.navbar_active {
 }
 
 .mainn {
-    height: 120vh;
+    height: auto;
     width: 100%;
     padding: 200px 100px;
-    display: block;
+
 
 }
 
@@ -100,6 +105,9 @@ nav.navbar_active {
     height: 100vh;
     width: 100%;
     padding: 50px;
+    background-color: chocolate;
+    overflow: hidden;
+
 }
 .appear_paragraph {
     width: 50%;
@@ -118,12 +126,45 @@ nav.navbar_active {
 
 footer {
     width: 100%;
-    height: 100px;
-    background-color: darkslategray;
-    bottom: 0px;
-    opacity: 0;
+    height: 250px;
+    background-color: #4788B3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
+
+footer div table
+{
+    list-style: none;
+    color: white;
+    line-height: 40px;
+
+
+
+
+}
+footer div table tr td
+{
+
+    text-align: center;
+
+
+}
+.some_img
+{
+    height: 50px;
+    margin: 10px;
+
+
+}
+.contact_img
+{
+    height: 25px;
+    margin-top: 10px;
+
+}
 @media screen and (max-width: 768px) {
 
     #burger_menu {
@@ -131,6 +172,7 @@ footer {
         position: fixed;
         right: 35px;
         top: 35px;
+
 
     }
 
@@ -171,13 +213,44 @@ footer {
 
 
     .mainn {
-        height: 120vh;
+        height: auto;
         width: 100%;
         padding: 80px 10px;
+
 
     }
     .appear_text {
     width: 100%;
+
+}
+    footer
+    {
+        height: 90vh;
+        display: block;
+        padding: 50px;
+        font-size: 23px;
+
+
+
+
+
+
+    }
+    footer div
+    {
+
+        justify-content: center;
+        display: flex;
+        margin: 50px 50px 100px 50px;
+
+
+    }
+
+    .some_img
+{
+    height: 50px;
+    margin: 30px;
+
 
 }
 
