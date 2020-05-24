@@ -7,7 +7,7 @@
 body {
 
     font-family: arial;
-    margin: 1px;
+
     display: block;
 
 }
@@ -22,6 +22,7 @@ nav {
     justify-content: space-around;
     position: fixed;
     transition: 0.2s;
+    z-index: 1;
 }
 
 nav.navbar_active {
@@ -86,19 +87,77 @@ nav.navbar_active {
 .mainn {
     height: auto;
     width: 100%;
-    padding: 200px 100px;
+    padding: 200px 0px;
 
 
 }
 
-
-
-.blue
+section h1
 {
-    border-bottom: 1px solid black;
-    height: 100vh;
-    width: 100%;
+    margin: 50px auto;
+    font-size: 50px;
+
 }
+
+.values_section
+{
+
+    height: 80vh;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+        color: #2B7DBD;
+
+    padding: 70px;
+    margin-bottom: 100px;
+}
+.values_container
+{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+.values_each{
+    border: 1px solid black;
+    text-align: center;
+    width: 130px;
+}
+.value_title
+{
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+.projects_section
+{
+    height: 110vh;
+    width: 100%;
+    background-color: #E7F5FF;
+    text-align: center;
+    padding-top: 20px;
+    color:#2B7DBD;
+}
+
+.projects_section h1
+{
+    margin-bottom: 120px;
+}
+.projects_container
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects_each{
+
+    text-align: center;
+    width: 150px;
+}
+
+
+
+
 .red
 {
 
@@ -271,3 +330,25 @@ footer div table tr td
 .csik3_a {
     transform: rotate(45deg) translate(-5px, 0px);
 }
+.project_button {
+	background-color:#338CD8;
+	border-radius:28px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:19px;
+	font-weight:bold;
+	padding:12px 46px;
+	text-decoration:none;
+     margin-top: 100px;
+}
+.project_button:hover {
+	background-color:#476e9e;
+}
+.project_button:active {
+	position:relative;
+	top:1px;
+    outline: none;
+}
+
