@@ -30,20 +30,46 @@ $(window).on('scroll', function () {
 
 function textAnomatoin ()
 {
-    var paragraph = document.querySelector(".appear_paragraph");
-    var introPosition = paragraph.getBoundingClientRect().top;
+    var p1 = document.querySelector(".show1");
+    var introPosition = p1.getBoundingClientRect().top;
 
-    var screenPosition = window.innerHeight/2;
+    var screenPosition = window.innerHeight/1.3;
 
     if(introPosition < screenPosition)
         {
-            paragraph.classList.add("appear_paragraph_on");
+            p1.classList.add("show_on1");
+        }
+}
+ function textAnomatoin2 ()
+{
+    var p2 = document.querySelector(".show2");
+    var introPosition2 = p2.getBoundingClientRect().top;
+
+    var screenPosition = window.innerHeight/1.3;
+
+    if(introPosition2 < screenPosition)
+        {
+            p2.classList.add("show_on2");
+        }
+}
+function textAnomatoin3 ()
+{
+    var p3 = document.querySelector(".show3");
+    var introPosition3 = p3.getBoundingClientRect().top;
+
+    var screenPosition = window.innerHeight/1.3;
+
+    if(introPosition3 < screenPosition)
+        {
+            p3.classList.add("show_on3");
         }
 }
 
 
 
 window.addEventListener('scroll', textAnomatoin);
+window.addEventListener('scroll', textAnomatoin2);
+window.addEventListener('scroll', textAnomatoin3);
 
 kitar();
 

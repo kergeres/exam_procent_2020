@@ -7,7 +7,7 @@
 body {
 
     font-family: arial;
-
+overflow-x: hidden;
     display: block;
 
 }
@@ -17,28 +17,33 @@ nav {
     width: 100%;
     height: 15vh;
     border-bottom: 1px solid black;
-    opacity: 0.7;
+    opacity: 0.9;
     display: flex;
     justify-content: space-around;
     position: fixed;
     transition: 0.2s;
     z-index: 1;
+    color: black;
 }
 
 nav.navbar_active {
     background-color: white;
     transition: 0.8s;
-    opacity: 0.5;
+    opacity: 0.7;
     height: 10vh;
     color: white;
 }
 
 .cimer {
     height: 80px;
-    margin: auto 5px auto 50px;
+    margin: 5px 5px auto 0px;
     cursor: pointer;
     transition: 0.2s;
 }
+.cimeri
+    {
+       display: none;
+    }
 
 .cimer_small {
     height: 50px;
@@ -59,11 +64,17 @@ nav.navbar_active {
     color: #2B7DBD;
     list-style: none;
     text-transform: uppercase;
-
-
+    font-size: 20px;
+    transition: 0.2s;
 
 }
+.nav_links li a:hover {
 
+        color: #11396F;
+    font-size: 25px;
+    font-weight: bold;
+
+    }
 
 .nav_links li {
 
@@ -87,7 +98,7 @@ nav.navbar_active {
 .mainn {
     height: auto;
     width: 100%;
-    padding: 200px 0px;
+
 
 
 }
@@ -99,6 +110,52 @@ section h1
 
 }
 
+.frost_section
+{
+
+    background-image: url(/image/Backgroud_n.jpg);
+    height: 100vh;
+    background-size: 100%;
+    background-size: cover;
+
+
+}
+.frost_container
+{
+
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+position: absolute;
+    top: 270px;
+    left: 50px;
+    color: white;
+
+
+}
+
+.frost_container h1{
+    margin-top: 0px;
+    font-size: 40px;
+}
+.frost_container p{
+    width: 80%;
+    line-height: 30px;
+    font-size: 20px;
+}
+.frost_bg
+{
+    width: 120%;
+    z-index: -1;
+    background-color: aqua;
+}
+.frost_img
+{
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
 .values_section
 {
 
@@ -119,14 +176,24 @@ section h1
 
 }
 .values_each{
-    border: 1px solid black;
+
     text-align: center;
     width: 130px;
+    transition: 0.5s;
+}
+.values_each:hover{
+    box-shadow: 0px 0px 73px -5px rgba(0,0,0,0.75);
+
 }
 .value_title
 {
     margin: 30px auto;
     font-size: 20px;
+}
+
+.values_img
+{
+    width: 100px;
 }
 
 .projects_section
@@ -155,7 +222,13 @@ section h1
     width: 150px;
 }
 
-
+.reviews
+{
+    height: 400px;
+    border: 3px solid green;
+    text-align: center;
+    color: #2B7DBD;
+}
 
 
 .red
@@ -177,6 +250,43 @@ section h1
     color: black;
 }
 
+.show1{
+
+    opacity: 0;
+    transition: 1s all ease-in-out;
+    transform: translateY(40px);
+
+}
+.show_on1{
+
+    opacity: 1;
+    transform: translateY(0);
+
+}.show2{
+
+    opacity: 0;
+    transition: 1s all ease-in-out;
+    transform: translateY(40px);
+
+}
+.show_on2{
+
+    opacity: 1;
+    transform: translateY(0);
+
+}.show3{
+
+    opacity: 0;
+    transition: 1s all ease-in-out;
+    transform: translateY(40px);
+
+}
+.show_on3{
+
+    opacity: 1;
+    transform: translateY(0);
+
+}
 .appear_paragraph_on {
     opacity: 1;
     transform: translateY(0);
@@ -214,14 +324,19 @@ footer div table tr td
 .some_img
 {
     height: 50px;
-    margin: 10px;
+    margin: 0 10px;
 
 
 }
+
+.project_imag
+{
+    width: 150px;
+}
 .contact_img
 {
-    height: 25px;
-    margin-top: 10px;
+    height: 30px;
+
 
 }
 @media screen and (max-width: 768px) {
@@ -234,6 +349,12 @@ footer div table tr td
 
 
     }
+    .nav_links li a {
+    color: white;
+
+
+
+}
 
     nav {
         background-color: navy;
@@ -241,10 +362,12 @@ footer div table tr td
         border: none;
 
 
+
     }
 
     nav.navbar_active {
         background: none;
+        opacity: 1;
 
     }
 
@@ -252,11 +375,16 @@ footer div table tr td
         display: none;
     }
 
+    .cimeri
+    {
+        width: 150px;
+    }
     .nav_links {
+
         position: fixed;
         right: 0;
         height: 100vh;
-        background-color: blue;
+        background-color: #338CD8;
         display: flex;
         flex-direction: column;
         width: 90%;
@@ -274,13 +402,65 @@ footer div table tr td
     .mainn {
         height: auto;
         width: 100%;
-        padding: 80px 10px;
+        padding: 0;
 
 
     }
+    .frost_container
+    {
+        width: 100%;
+        top: 250px;
+    left: 0px;
+        padding: 20px;
+
+    }
+
+    .frost_container p{
+    width: 90%;
+    line-height: 30px;
+    font-size: 20px;
+}
+    .frost_container h1{
+    margin-top: 0px;
+    font-size: 40px;
+
+}
+    .frost_img
+{
+   display: none;
+}
     .appear_text {
     width: 100%;
 
+}
+    .values_container
+{
+
+    display: block;
+
+}
+    .values_each
+{
+
+    margin: 30px auto;
+    width: 80%;
+
+}
+    .values_img
+{
+    width: 200px;
+}
+    .values_section
+{
+
+    height: auto;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+        color: #2B7DBD;
+
+    padding: 70px;
+    margin-bottom: 100px;
 }
     footer
     {
@@ -319,11 +499,13 @@ footer div table tr td
 
 .csik1_a {
     transform: rotate(-45deg) translate(-5px, 0px);
+
 }
 
 .csik2_a {
     display: none;
     transition: 2s;
+
 }
 
 
@@ -342,9 +524,12 @@ footer div table tr td
 	padding:12px 46px;
 	text-decoration:none;
      margin-top: 100px;
+
 }
 .project_button:hover {
-	background-color:#476e9e;
+	background-color: white;
+    border: #338CD8 solid 2px;
+    color: #338CD8;
 }
 .project_button:active {
 	position:relative;
