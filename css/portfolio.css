@@ -1,6 +1,6 @@
 .Portfolio_section
 {
-    background-image: url(/image/portfolio.png);
+    background-image: url("../image/portfolio.png");
     height: 70vh;
     background-size: 100%;
     background-size: cover;

@@ -5,12 +5,33 @@
 
 
 .dennis_container {
-    height: 100vh;
+
+    height: 100%;
     background-color: #D4E9F8;
-    padding-top: 130px;
+
 
 }
+.portre
+{
+    width: 500px;
+    border: 1px solid black;
+    height: auto;
+}
+.portre img
+{
+    width: 100%;
+      border: 1px solid black;
+}
+.color
+{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("/image/bckk.png");
+    padding-top: 130px;
+    height: 100vh;
+    background-size: cover;
 
+}
 .dennis {
     width: 50%;
     height: 400px;
@@ -139,6 +160,14 @@ h4 p {
 }
 
 @media screen and (max-width: 768px) {
+    .portre
+    {
+        width: 100%;
+    }
+    .color{
+        display: block;
+        height: auto;
+    }
     .dennis {
         width: 90%;
         height: 400px;

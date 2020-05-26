@@ -20,9 +20,10 @@ nav {
     opacity: 0.9;
     display: flex;
     justify-content: space-around;
+
     position: fixed;
     transition: 0.2s;
-    z-index: 1;
+    z-index: 2;
     color: black;
 }
 
@@ -37,6 +38,7 @@ nav.navbar_active {
 .cimer {
     height: 80px;
     margin: 5px 5px auto 0px;
+
     cursor: pointer;
     transition: 0.2s;
 }
@@ -113,7 +115,7 @@ section h1
 .frost_section
 {
 
-    background-image: url(/image/Backgroud_n.jpg);
+    background-image: url("/image/Backgroud_n.jpg");
     height: 100vh;
     background-size: 100%;
     background-size: cover;
@@ -231,16 +233,7 @@ position: absolute;
 }
 
 
-.red
-{
 
-    height: 100vh;
-    width: 100%;
-    padding: 50px;
-    background-color: chocolate;
-    overflow: hidden;
-
-}
 .appear_paragraph {
     width: 50%;
     height: auto;
@@ -480,7 +473,7 @@ footer div table tr td
 
         justify-content: center;
         display: flex;
-        margin: 50px 50px 100px 50px;
+        margin: 50px 50px 0px 50px;
 
 
     }
