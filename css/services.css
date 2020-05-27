@@ -1,6 +1,6 @@
 .what_offer
 {
-    background-image: url("/image/flipped.png");
+    background-image: url("../image/flipped.png");
     height: 100vh;
     background-size: 100%;
     background-size: cover;
@@ -64,7 +64,7 @@
 .small_container
 {
      height: auto;
-    border: 1px solid black;
+
     display: flex;
     justify-content: space-around;
     margin-top: 50px;

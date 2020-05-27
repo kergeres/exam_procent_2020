@@ -11,7 +11,7 @@
 {
     height: auto;
     width: 40%;
-    border: 1px solid red;
+
     position: absolute;
     top: 150px;
     right: 100px;
@@ -42,7 +42,7 @@
 {
 
 height: 400px;
-    border: solid 1px black;
+
     justify-content: space-around;
     display: flex;
     align-items: center;
@@ -64,7 +64,7 @@ ul li h2
 }
 .info
 {
-    border: 1px solid black;
+
     width: 40%;
     height: auto;
 
@@ -188,6 +188,11 @@ h2
 
 
 }
+#map
+{
+    height: 300px;
+    margin: 50px 0px;
+}
 @media screen and (max-width: 768px) {
 
     .inputs
@@ -256,7 +261,7 @@ h2
 {
 
 height: auto;
-    border: solid 1px black;
+
 
     display: block;
 
@@ -266,7 +271,7 @@ height: auto;
 }
     .info
 {
-    border: 1px solid black;
+
     width: 100%;
     height: 500px;
     text-align: center;
