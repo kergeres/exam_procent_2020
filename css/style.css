@@ -351,6 +351,18 @@ footer div table tr td
 
 
     }
+    .projects_each{
+
+    margin: auto;
+}
+    .projects_container
+    {
+        display: block;
+    }
+    .projects_section
+    {
+        height: 160vh;
+    }
     .nav_links li a {
     color: white;
 
@@ -409,6 +421,7 @@ footer div table tr td
 
 
     }
+
     .frost_container
     {
         width: 100%;
@@ -471,10 +484,6 @@ footer div table tr td
         display: block;
         padding: 50px;
         font-size: 23px;
-
-
-
-
 
 
     }

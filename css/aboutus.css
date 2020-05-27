@@ -52,7 +52,7 @@
 
 .how_started_container {
 
-    height: 500px;
+    height: auto;
     display: flex;
     justify-content: space-between;
 
@@ -74,6 +74,10 @@
 
 }
 
+.how_started_icon img
+{
+    width: 100%;
+}
 .future_icon {
     height: 300px;
     margin-top: 250px;
@@ -118,7 +122,7 @@
 }
 
 .skills {
-    height: 500px;
+    height: 400px;
 
 }
 
@@ -138,7 +142,7 @@
 }
 
 .skills2 {
-    height: 700px;
+    height: 500px;
 
     display: flex;
     justify-content: space-around;
@@ -184,7 +188,7 @@ h4 p {
 
     .how_started_container {
 
-        height: auto;
+
         display: block;
 
 
@@ -223,6 +227,7 @@ text-align: justify;
 }
 .skills_text h1 {
     font-size: 30px;
+    line-height: normal;
 }
 
 

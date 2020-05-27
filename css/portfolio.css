@@ -45,8 +45,9 @@
     width: 250px;
     height: auto;
     text-align: center;
-
+background-color: #D4E9F8;
     box-shadow:  0px 0px 20px 20px #D4E9F8;
+    margin: 50px;
 }
 .portfolio_each p
     {
@@ -80,7 +81,7 @@
 
     .portfolio_each
 {
-    margin: 50px auto;
+    margin: 100px auto;
 }
     .Portfolio_section
 {
