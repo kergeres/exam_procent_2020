@@ -1,35 +1,30 @@
-.contact_section
-{
+.contact_section {
     background-image: url("../image/contact.png");
     height: 100vh;
     background-size: 100%;
     background-size: cover;
-
 }
 
-.contact_p
-{
+.contact_p {
     height: auto;
     width: 40%;
-
     position: absolute;
     top: 150px;
     right: 100px;
     color: #0F5374;
 }
 
-.contact_p p
-{
+.contact_p p {
     font-size: 25px;
     line-height: 33px;
     margin-top: 50px;
-}.contact_p h1
-{
+}
+
+.contact_p h1 {
     margin: 0;
 }
 
-.contact_container
-{
+.contact_container {
     height: 500px;
     background-color: white;
     display: flex;
@@ -38,69 +33,55 @@
     color: #255592;
 }
 
-.contacts
-{
-
-height: 400px;
-
+.contacts {
+    height: 400px;
     justify-content: space-around;
     display: flex;
     align-items: center;
-
-
-
 }
-ul li
-{
+
+ul li {
     font-size: 25px;
     line-height: 40px;
     list-style: none;
     color: #A9B1BB;
 }
-ul li h2
-{
+
+ul li h2 {
     color: #255592;
     margin-bottom: 20px;
 }
-.info
-{
 
+.info {
     width: 40%;
     height: auto;
-
 }
-.some
-{
+
+.some {
     width: 300px;
     height: 200px;
     background-color: #4FA1D5;
     border-radius: 30px;
-    box-shadow: 6px 5px 25px -7px rgba(0,0,0,0.75);
+    box-shadow: 6px 5px 25px -7px rgba(0, 0, 0, 0.75);
     display: flex;
     align-items: center;
     text-align: center;
-
-
 }
 
-.some_imge
-{
+.some_imge {
     margin-top: 15px;
     height: 50px;
-
 }
-.inputs
-{
+
+.inputs {
     height: 500px;
-     display: grid;
-  grid-template-columns: 3fr 3fr 3fr 3fr 30px 3fr 3fr 3fr 3fr;
-  grid-template-rows: 40px 40px 40px 40px 40px ;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr 30px 3fr 3fr 3fr 3fr;
+    grid-template-rows: 40px 40px 40px 40px 40px;
     padding-top: 50px;
-
 }
 
-.inputs input
-{
+.inputs input {
     border: none;
     border-radius: 30px;
     padding: 25px;
@@ -109,224 +90,167 @@ ul li h2
     background-color: #D4E9F8;
 
 }
-.inputs div
-{
+
+.inputs div {
     border: none;
     border-radius: 30px;
     padding: 25px;
     color: #255592;
     text-align: start;
     background-color: #D4E9F8;
-
 }
-.name_i
-{
 
-
+.name_i {
     grid-column: 2/5;
     grid-row: 1;
 
 }
-.email_i
-{
 
+.email_i {
     grid-column: 6/9;
     grid-row: 1/2;
 }
-.subj_i
-{
 
-     grid-column: 2/9;
+.subj_i {
+
+    grid-column: 2/9;
     grid-row: 3;
 
 }
-.text_i
-{
 
-     grid-column: 2/9;
+.text_i {
+
+    grid-column: 2/9;
     grid-row: 5/8;
 
 }
 
 
-.text_i_small
-{
+.text_i_small {
     z-index: 1;
-     grid-column: 2/9;
+    grid-column: 2/9;
     grid-row: 5;
 }
 
-h2
-{
-   text-align: center;
+h2 {
+    text-align: center;
     margin: 50px;
     color: #255592;
     font-size: 40px;
 }
-.buttonn:hover
-{
+
+.buttonn:hover {
     background-color: white;
     border: #338CD8 solid 2px;
     color: #338CD8;
 }
-.buttonn
-{
-    background-color:#338CD8;
+
+.buttonn {
+    background-color: #338CD8;
     transform: translateX(-50%);
     text-transform: uppercase;
-	border-radius:28px;
-	border: none;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:19px;
-	font-weight:bold;
-	padding:12px 46px;
-	text-decoration:none;
-
+    border-radius: 28px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 12px 46px;
+    text-decoration: none;
     margin: 50px auto 150px 50%;
-
-
 }
-#map
-{
+
+#map {
     height: 300px;
     margin: 50px 0px;
 }
+
 @media screen and (max-width: 768px) {
 
-    .inputs
-{
+    .inputs {
 
-  grid-template-columns: 3fr 3fr 3fr 3fr 30px 3fr 3fr 3fr 3fr;
-  grid-template-rows: 40px 30px 40px 30px 40px 40px 40px 40px 40px 40px 40px 40px;
-    height: auto;
-
+        grid-template-columns: 3fr 3fr 3fr 3fr 30px 3fr 3fr 3fr 3fr;
+        grid-template-rows: 40px 30px 40px 30px 40px 40px 40px 40px 40px 40px 40px 40px;
+        height: auto;
     }
-    .name_i
-{
 
+    .name_i {
+        grid-column: 2/9;
+        grid-row: 1;
+    }
 
-    grid-column: 2/9;
-    grid-row: 1;
+    .email_i {
+        grid-column: 2/9;
+        grid-row: 3;
+    }
 
-}
-.email_i
-{
+    .subj_i {
+        grid-column: 2/9;
+        grid-row: 5;
+    }
 
-    grid-column: 2/9;
-    grid-row: 3;
-}
-.subj_i
-{
+    .text_i {
+        grid-column: 2/9;
+        grid-row: 8/12;
+    }
+    .text_i_small {
+        z-index: 1;
+        grid-column: 2/9;
+        grid-row: 8;
+    }
+    .contact_container {
+        height: auto;
+        background-color: white;
+        display: block;
+    }
 
-     grid-column: 2/9;
-    grid-row: 5;
+    .contact_section {
+        height: 50vh;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
 
-}
-.text_i
-{
+    .contacts {
+        height: auto;
+        display: block;
+    }
 
-     grid-column: 2/9;
-    grid-row: 8/12;
+    .info {
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
 
-}
-
-
-.text_i_small
-{
-    z-index: 1;
-     grid-column: 2/9;
-    grid-row: 8;
-}
-    .contact_container
-{
-    height: auto;
-    background-color: white;
-    display: block;
-}
-
-
-    .contact_section
-{
-
-    height: 50vh;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-
-
-}
-    .contacts
-{
-
-height: auto;
-
-
-    display: block;
-
-
-
-
-}
-    .info
-{
-
-    width: 100%;
-    height: 500px;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-
-
-}
-
-    .some
-    {
+    .some {
         margin: auto;
     }
-    .info ul{
+
+    .info ul {
         margin-top: 80px;
     }
 
-    .contacts tr
-    {
+    .contacts tr {
         text-align: center;
     }
-    .contact_p
-{
 
-    width: 80%;
-    position: inherit;
-    height: auto;
-
-
-}
-    .contact_p h1
-{
-
-   font-size: 30px;
-
-
-}
-       .contact_p p
-{
-
-   font-size: 18px;
-    margin-top: 40px;
-
-
-}
-
-
-
-
-
+    .contact_p {
+        width: 80%;
+        position: inherit;
+        height: auto;
     }
 
+    .contact_p h1 {
 
+        font-size: 30px;
+    }
 
+    .contact_p p {
+        font-size: 18px;
+        margin-top: 40px;
+    }
 
-
-
-
+}

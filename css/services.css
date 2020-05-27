@@ -1,5 +1,4 @@
-.what_offer
-{
+.what_offer {
     background-image: url("../image/flipped.png");
     height: 100vh;
     background-size: 100%;
@@ -7,36 +6,31 @@
     color: #2B7DBD;
 
 }
-.what_offer h1
-{
+
+.what_offer h1 {
     position: absolute;
     top: 130px;
     font-size: 60px;
     left: 50px;
-
 }
-.what_offer p
-{
+
+.what_offer p {
     position: absolute;
     top: 300px;
     width: 350px;
     font-size: 25px;
     left: 50px;
-
-
 }
 
-.offer_txt
-{
+.offer_txt {
     line-height: 30px;
     font-size: 25px;
 }
-.offerh
-{
+
+.offerh {
     margin: 50px auto;
     font-size: 40px;
     font-weight: normal;
-
     text-transform: uppercase;
 }
 
@@ -47,7 +41,7 @@
 
 
 
-.skills_text  {
+.skills_text {
     color: #A9B1BB;
     letter-spacing: 1px;
     line-height: 25px;
@@ -55,27 +49,23 @@
 }
 
 .skills2 {
-   display: block;
-     background-color: #E7F5FF;
+    display: block;
+    background-color: #E7F5FF;
     padding-top: 40px;
-
-
 }
-.small_container
-{
-     height: auto;
-
+.small_container {
+    height: auto;
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
 }
-.offers
-{
+
+.offers {
     display: flex;
     justify-content: space-around;
 }
-.offer_container
-{
+
+.offer_container {
     width: 350px;
     border: 1px solid #707070;
     border-radius: 30px;
@@ -84,31 +74,29 @@
     text-align: center;
     color: #707070;
 }
-.offer_img
-{
+
+.offer_img {
     width: 100%;
 }
-.pa
-{
 
-        color: #2B7DBD;
+.pa {
+
+    color: #2B7DBD;
     height: 20px;
     margin-top: 0px;
     text-align: center;
     font-size: 40px;
-
-
-
 }
-h2
-{
-     background-color: #E7F5FF;
+
+h2 {
+    background-color: #E7F5FF;
     text-align: end;
     display: flex;
     justify-content: center;
 
 }
-.text_contaner{
+
+.text_contaner {
     background-color: #E7F5FF;
     text-align: center;
     display: flex;
@@ -116,15 +104,11 @@ h2
     height: 200px;
 }
 
- .text_contaner p
-{
+.text_contaner p {
     font-size: 25px;
     margin-top: 50px;
     color: #2B7DBD;
     width: 50%;
-
-
-
 }
 
 .skills_img {
@@ -134,110 +118,88 @@ h2
 .skills_each {
     width: 200px;
     text-align: center;
-
 }
 
-h4  {
+h4 {
     color: #2B7DBD;
 }
 
-.yhq
-{
+.yhq {
     height: auto;
     text-align: center;
     color: #707070;
 }
-.yhq h1
-{
+
+.yhq h1 {
     margin-bottom: 10px;
 }
-.yhq p
-{
+
+.yhq p {
     font-size: 30px;
 }
-.buttonn:hover
-{
+
+.buttonn:hover {
     background-color: white;
     border: #338CD8 solid 2px;
     color: #338CD8;
 }
-.buttonn
-{
-    background-color:#338CD8;
+
+.buttonn {
+    background-color: #338CD8;
     text-transform: uppercase;
-	border-radius:28px;
-	border: none;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:19px;
-	font-weight:bold;
-	padding:12px 46px;
-	text-decoration:none;
-
+    border-radius: 28px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 12px 46px;
+    text-decoration: none;
     margin: 150px auto;
-
-
 }
+
 @media screen and (max-width: 768px) {
-
-
     .what_offer p {
 
-    top: 350px;
-    width: 250px;
+        top: 350px;
+        width: 250px;
+    }
 
-}
-    .text_contaner p
-    {
+    .text_contaner p {
         width: 90%;
     }
-.small_container
-    {
-        display: block;
-    }
-.offers
-    {
+
+    .small_container {
         display: block;
     }
 
-.skills_text {
-    width: 90%;
-    margin: auto;
-text-align: justify;
-    position: relative;
-    left: inherit;
+    .offers {
+        display: block;
+    }
+
+    .skills_text {
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+        position: relative;
+        left: inherit;
+    }
+
+    .skills_text h1 {
+        font-size: 30px;
+    }
 
 
-}
-.skills_text h1 {
-    font-size: 30px;
-}
+    .skills2 {
+        height: auto;
+        border: 1px solid black;
+        display: block;
+        margin: 1px;
+    }
 
-
-.skills2 {
-    height: auto;
-    border: 1px solid black;
-    display: block;
-    margin: 1px;
-
-}
-    .skills_each
-    {
+    .skills_each {
         margin: 50px auto;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

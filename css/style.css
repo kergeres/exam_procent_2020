@@ -69,7 +69,6 @@ nav.navbar_active {
     text-transform: uppercase;
     font-size: 20px;
     transition: 0.2s;
-
 }
 
 .nav_links li a:hover {
@@ -77,18 +76,15 @@ nav.navbar_active {
     color: #11396F;
     font-size: 25px;
     font-weight: bold;
-
 }
 
 .nav_links li {
-
     list-style: none;
 }
 
 #burger_menu {
     margin: auto;
     display: none;
-
 }
 
 #burger_menu div {
@@ -102,44 +98,31 @@ nav.navbar_active {
 .mainn {
     height: auto;
     width: 100%;
-
-
-
 }
 
 section h1 {
     margin: 50px auto;
     font-size: 50px;
-
 }
 
 .frost_section {
-
     background-image: url("../image/Backgroud_n.jpg");
     height: 100vh;
     background-size: 100%;
     background-size: cover;
-
-
 }
 
 .info tr {
     text-align: end;
-
-
 }
 
 .frost_container {
-
     width: 400px;
     height: 300px;
-
     position: absolute;
     top: 270px;
     left: 50px;
     color: white;
-
-
 }
 
 .frost_container h1 {
@@ -167,26 +150,21 @@ section h1 {
 }
 
 .values_section {
-
     height: 80vh;
     width: 100%;
     background-color: white;
     text-align: center;
     color: #2B7DBD;
-
     padding: 70px;
     margin-bottom: 100px;
 }
 
 .values_container {
-
     display: flex;
     justify-content: space-around;
-
 }
 
 .values_each {
-
     text-align: center;
     width: 130px;
     transition: 0.5s;
@@ -232,12 +210,9 @@ section h1 {
 
 .reviews {
     height: 400px;
-
     text-align: center;
     color: #2B7DBD;
 }
-
-
 
 .appear_paragraph {
     width: 50%;
@@ -249,54 +224,42 @@ section h1 {
 }
 
 .show1 {
-
     opacity: 0;
     transition: 1s all ease-in-out;
     transform: translateY(40px);
-
 }
 
 .show_on1 {
-
     opacity: 1;
     transform: translateY(0);
-
 }
 
 .show2 {
-
     opacity: 0;
     transition: 1s all ease-in-out;
     transform: translateY(40px);
-
 }
 
 .show_on2 {
-
     opacity: 1;
     transform: translateY(0);
 
 }
 
 .show3 {
-
     opacity: 0;
     transition: 1s all ease-in-out;
     transform: translateY(40px);
-
 }
 
 .show_on3 {
-
     opacity: 1;
     transform: translateY(0);
-
 }
 
 .appear_paragraph_on {
     opacity: 1;
     transform: translateY(0);
-
 }
 
 footer {
@@ -314,23 +277,15 @@ footer div table {
     list-style: none;
     color: white;
     line-height: 40px;
-
-
-
-
 }
 
 footer div table tr td {
-
     text-align: center;
-
-
 }
 
 .some_img {
     height: 50px;
     margin: 0 10px;
-
 
 }
 
@@ -341,23 +296,26 @@ footer div table tr td {
 .contact_img {
     height: 30px;
     margin-top: 10px;
-
-
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1030px)
+
+{
+    .nav_links
+    {
+        width: 60%;
+    }
+}
+    @media screen and (max-width: 768px) {
 
     #burger_menu {
         display: block;
         position: fixed;
         right: 35px;
         top: 35px;
-
-
     }
 
     .projects_each {
-
         margin: auto;
     }
 
@@ -371,9 +329,6 @@ footer div table tr td {
 
     .nav_links li a {
         color: white;
-
-
-
     }
 
     nav {
@@ -381,15 +336,11 @@ footer div table tr td {
         background: none;
         border: none;
         box-shadow: 0px 0px 0px 0px;
-
-
-
     }
 
     nav.navbar_active {
         background: none;
         opacity: 1;
-
     }
 
     .cimer {
@@ -410,22 +361,17 @@ footer div table tr td {
         flex-direction: column;
         width: 90%;
         transform: translateX(100%);
-
     }
 
     .nav_links_clicked {
         transform: translateX(0%);
         transition: transform 0.5s ease-in;
-
     }
-
 
     .mainn {
         height: auto;
         width: 100%;
         padding: 0;
-
-
     }
 
     .frost_container {
@@ -433,7 +379,6 @@ footer div table tr td {
         top: 250px;
         left: 0px;
         padding: 20px;
-
     }
 
     .frost_container p {
@@ -445,38 +390,27 @@ footer div table tr td {
     .frost_container h1 {
         margin-top: 0px;
         font-size: 40px;
-
     }
-
     .frost_img {
         display: none;
     }
-
     .appear_text {
         width: 100%;
-
     }
-
     .values_container {
-
         display: block;
-
     }
 
     .values_each {
-
         margin: 30px auto;
         width: 80%;
-
     }
 
     .values_img {
         width: 200px;
     }
 
-
     .values_section {
-
         height: auto;
         width: 100%;
         background-color: white;
@@ -491,24 +425,17 @@ footer div table tr td {
         display: block;
         padding: 50px;
         font-size: 23px;
-
-
     }
 
     footer div {
-
         justify-content: center;
         display: flex;
         margin: 50px 50px 0px 50px;
-
-
     }
 
     .some_img {
         height: 50px;
         margin: 30px;
-
-
     }
 
 }
@@ -517,13 +444,11 @@ footer div table tr td {
 
 .csik1_a {
     transform: rotate(-45deg) translate(-5px, 0px);
-
 }
 
 .csik2_a {
     display: none;
     transition: 2s;
-
 }
 
 
@@ -543,7 +468,6 @@ footer div table tr td {
     padding: 12px 46px;
     text-decoration: none;
     margin-top: 100px;
-
 }
 
 .project_button:hover {

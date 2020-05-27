@@ -21,7 +21,10 @@ json
 i need:
 
 
-icons for netflix + more text
+netflix  text
+sass
+hreffek some PIPA
+header ha kisebb a kepernyo PIPA
 review texts
 
 

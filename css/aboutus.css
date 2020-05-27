@@ -2,63 +2,51 @@
     height: auto;
     width: 100%;
 }
-
-
 .dennis_container {
 
     height: 100%;
     background-color: #D4E9F8;
-
-
 }
-.portre
-{
+.portre {
     width: 500px;
-
     height: auto;
 }
-.portre img
-{
+.portre img {
     width: 100%;
-
 }
-.color
-{
+.color {
     display: flex;
     justify-content: space-around;
     background-image: url("../image/bckk.png");
     padding-top: 130px;
     height: 100vh;
     background-size: cover;
-
 }
+
 .dennis {
     width: 50%;
     height: 400px;
-
     margin-left: 50px;
     text-align: center;
     color: white;
     line-height: 30px;
 
 }
-.dennis h1
-{text-align: start;}
+
+.dennis h1 {
+    text-align: start;
+}
+
 .dennis_p {
     text-align: start;
     font-size: 25px;
-
 }
 
 
 .how_started_container {
-
     height: auto;
     display: flex;
     justify-content: space-between;
-
-
-
 }
 
 .future_container {
@@ -75,10 +63,10 @@
 
 }
 
-.how_started_icon img
-{
+.how_started_icon img {
     width: 100%;
 }
+
 .future_icon {
     height: 300px;
     margin-top: 250px;
@@ -117,20 +105,16 @@
 }
 
 .flip {
-
     transform: scaleX(-1);
-
 }
 
 .skills {
     height: 400px;
-
 }
 
 .skills_text {
     width: 50%;
     height: 300px;
-
     color: #255592;
     position: absolute;
     left: 50px;
@@ -144,10 +128,8 @@
 
 .skills2 {
     height: 500px;
-
     display: flex;
     justify-content: space-around;
-
 }
 
 .skills_img {
@@ -165,99 +147,71 @@ h4 p {
 }
 
 @media screen and (max-width: 768px) {
-    .portre
-    {
+    .portre {
         width: 100%;
     }
-    .color{
+
+    .color {
         display: block;
         height: auto;
     }
+
     .dennis {
         width: 90%;
         height: 400px;
-
         margin: auto;
-
-
     }
 
     .how_started_icon {
         display: none;
-
     }
 
     .how_started_container {
-
-
         display: block;
-
-
-
-
     }
 
     .how_started_text {
-
         width: 90%;
         margin: auto auto 50px auto;
         text-align: justify;
     }
 
     .how_started_text h1 {
-
         text-align: start;
         line-height: normal;
     }
 
-.skills {
-    height: 500px;;
+    .skills {
+        height: 500px;;
+        text-align: center;
+    }
 
-    text-align: center;
+    .skills_text {
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+        position: relative;
+        left: inherit;
+    }
 
-}
-
-.skills_text {
-    width: 90%;
-    margin: auto;
-text-align: justify;
-    position: relative;
-    left: inherit;
-
-
-}
-.skills_text h1 {
-    font-size: 30px;
-    line-height: normal;
-}
+    .skills_text h1 {
+        font-size: 30px;
+        line-height: normal;
+    }
 
 
-.skills2 {
-    height: auto;
+    .skills2 {
+        height: auto;
+        display: block;
+        margin: 1px;
+    }
 
-    display: block;
-    margin: 1px;
-
-}
-    .skills_each
-    {
+    .skills_each {
         margin: 50px auto;
     }
-.future_icon {
-display: none;
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
+    .future_icon {
+        display: none;
+    }
 
 }

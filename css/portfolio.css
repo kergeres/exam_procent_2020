@@ -1,14 +1,11 @@
-.Portfolio_section
-{
+.Portfolio_section {
     background-image: url("../image/portfolio.png");
     height: 70vh;
     background-size: 100%;
     background-size: cover;
-
 }
 
-.portfolio_p
-{
+.portfolio_p {
     height: 100px;
     border-top: 2px solid #255592;
     border-left: 2px solid #255592;
@@ -20,17 +17,16 @@
     color: #255592;
 }
 
-.portfolio_p p
-{
+.portfolio_p p {
     font-size: 30px;
-}.portfolio_p h1
-{
+}
+
+.portfolio_p h1 {
     margin: 0;
 
 }
 
-.portfolio_container
-{
+.portfolio_container {
     height: 500px;
     background-color: white;
     display: flex;
@@ -39,80 +35,55 @@
     color: #255592;
 }
 
-.portfolio_each
-{
+.portfolio_each {
 
     width: 250px;
     height: auto;
     text-align: center;
-background-color: #D4E9F8;
-    box-shadow:  0px 0px 20px 20px #D4E9F8;
+    background-color: #D4E9F8;
+    box-shadow: 0px 0px 20px 20px #D4E9F8;
     margin: 50px;
 }
-.portfolio_each p
-    {
-        color: #A9B1BB;
-    }
-.portfolio_img
-{
-    width: 150px;
-    border-radius: 50%;
-    margin-top: 10px ;
-    margin-bottom: 30px ;
+
+.portfolio_each p {
+    color: #A9B1BB;
 }
 
-.portfolio_imge
-{
+.portfolio_img {
     width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 
-    margin-top: 10px ;
-    margin-bottom: 30px ;
+.portfolio_imge {
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 768px) {
 
-
-    .portfolio_container
-{
-    height: auto;
-    background-color: white;
-    display: block;
-}
-
-    .portfolio_each
-{
-    margin: 100px auto;
-}
-    .Portfolio_section
-{
-
-    height: 50vh;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-
-
-}
-
-    .portfolio_p
-{
-
-
-    position: inherit;
-    height: auto;
-    border: none;
-
-}
-
-
-
-
-
+    .portfolio_container {
+        height: auto;
+        background-color: white;
+        display: block;
     }
 
+    .portfolio_each {
+        margin: 100px auto;
+    }
 
+    .Portfolio_section {
+        height: 50vh;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
 
-
-
-
-
+    .portfolio_p {
+        position: inherit;
+        height: auto;
+        border: none;
+    }
+}
