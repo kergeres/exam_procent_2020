@@ -1,7 +1,7 @@
-grid layout a bit
-api
+grid layout a bit PIPA
+api  PIPA
 sass/cscc
-css animations - ezek fasterek
+css animations - ezek fasterek PIPA
 
 
 

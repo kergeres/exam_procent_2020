@@ -474,6 +474,7 @@ footer div table tr td {
         width: 200px;
     }
 
+
     .values_section {
 
         height: auto;
@@ -481,7 +482,6 @@ footer div table tr td {
         background-color: white;
         text-align: center;
         color: #2B7DBD;
-
         padding: 70px;
         margin-bottom: 100px;
     }
