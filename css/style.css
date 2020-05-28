@@ -37,9 +37,8 @@ nav.navbar_active {
 }
 
 .cimer {
-    height: 80px;
+    height: 13vh;
     margin: 5px 5px auto 0px;
-
     cursor: pointer;
     transition: 0.2s;
 }
@@ -49,7 +48,7 @@ nav.navbar_active {
 }
 
 .cimer_small {
-    height: 50px;
+    height: 8vh;
     transition: ease-out 0.8s;
 }
 
@@ -166,7 +165,7 @@ section h1 {
 
 .values_each {
     text-align: center;
-    width: 130px;
+    width: 200px;
     transition: 0.5s;
 }
 
@@ -181,15 +180,16 @@ section h1 {
 }
 
 .values_img {
-    width: 100px;
+    width: 150px;
 }
 
 .projects_section {
-    height: 110vh;
+    height: auto;
     width: 100%;
     background-color: #E7F5FF;
     text-align: center;
     padding-top: 20px;
+    padding-top: 70px;
     color: #2B7DBD;
 }
 
@@ -205,7 +205,7 @@ section h1 {
 .projects_each {
 
     text-align: center;
-    width: 150px;
+    width: 200px;
 }
 
 .reviews {
@@ -290,7 +290,7 @@ footer div table tr td {
 }
 
 .project_imag {
-    width: 150px;
+    width: 220px;
 }
 
 .contact_img {
@@ -316,16 +316,14 @@ footer div table tr td {
     }
 
     .projects_each {
-        margin: auto;
+        margin: 100px auto;
     }
 
     .projects_container {
         display: block;
     }
 
-    .projects_section {
-        height: 160vh;
-    }
+
 
     .nav_links li a {
         color: white;
@@ -349,6 +347,7 @@ footer div table tr td {
 
     .cimeri {
         width: 150px;
+        display: block;
     }
 
     .nav_links {
@@ -387,10 +386,7 @@ footer div table tr td {
         font-size: 20px;
     }
 
-    .frost_container h1 {
-        margin-top: 0px;
-        font-size: 40px;
-    }
+
     .frost_img {
         display: none;
     }
@@ -402,7 +398,7 @@ footer div table tr td {
     }
 
     .values_each {
-        margin: 30px auto;
+        margin: 100px auto;
         width: 80%;
     }
 
@@ -421,7 +417,7 @@ footer div table tr td {
     }
 
     footer {
-        height: 90vh;
+        height: auto;
         display: block;
         padding: 50px;
         font-size: 23px;
