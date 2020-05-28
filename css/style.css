@@ -298,15 +298,13 @@ footer div table tr td {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 1030px)
-
-{
-    .nav_links
-    {
+@media screen and (max-width: 1030px) {
+    .nav_links {
         width: 60%;
     }
 }
-    @media screen and (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
 
     #burger_menu {
         display: block;
@@ -390,9 +388,11 @@ footer div table tr td {
     .frost_img {
         display: none;
     }
+
     .appear_text {
         width: 100%;
     }
+
     .values_container {
         display: block;
     }
@@ -401,10 +401,11 @@ footer div table tr td {
         margin: 100px auto;
         width: 80%;
     }
-        .values_each:hover {
-    box-shadow: none;
 
-}
+    .values_each:hover {
+        box-shadow: none;
+
+    }
 
     .values_img {
         width: 200px;
