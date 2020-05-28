@@ -401,6 +401,10 @@ footer div table tr td {
         margin: 100px auto;
         width: 80%;
     }
+        .values_each:hover {
+    box-shadow: none;
+
+}
 
     .values_img {
         width: 200px;
