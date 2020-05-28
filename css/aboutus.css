@@ -21,6 +21,7 @@
     padding-top: 130px;
     height: 100vh;
     background-size: cover;
+
 }
 
 .dennis {
@@ -28,13 +29,14 @@
     height: 400px;
     margin-left: 50px;
     text-align: center;
-    color: white;
+    color: #171c1f;
     line-height: 30px;
 
 }
 
 .dennis h1 {
     text-align: start;
+    color: #282e32;
 }
 
 .dennis_p {
@@ -88,7 +90,7 @@
 }
 
 .how_started_text p {
-    color: #A9B1BB;
+    color: #5a6f8a;;
     letter-spacing: 1px;
     line-height: 30px;
 }
@@ -109,7 +111,7 @@
 }
 
 .skills {
-    height: auto;
+    height: 350px;
 }
 
 .skills_text {
@@ -121,7 +123,7 @@
 }
 
 .skills_text p {
-    color: #A9B1BB;
+    color: #5a6f8a;;
     letter-spacing: 1px;
     line-height: 25px;
 }
@@ -143,7 +145,7 @@
 }
 
 h4 p {
-    color: #A9B1BB;
+    color: #5a6f8a;;
 }
 
 @media screen and (max-width: 768px) {
