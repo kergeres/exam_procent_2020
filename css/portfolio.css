@@ -27,7 +27,7 @@
 }
 
 .portfolio_container {
-    height: 500px;
+    height: auto;
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -65,8 +65,7 @@
 @media screen and (max-width: 768px) {
 
     .portfolio_container {
-        height: auto;
-        background-color: white;
+
         display: block;
     }
 

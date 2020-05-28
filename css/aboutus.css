@@ -109,7 +109,7 @@
 }
 
 .skills {
-    height: 400px;
+    height: auto;
 }
 
 .skills_text {
@@ -182,7 +182,7 @@ h4 p {
     }
 
     .skills {
-        height: 500px;;
+
         text-align: center;
     }
 
