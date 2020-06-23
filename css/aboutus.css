@@ -32,19 +32,24 @@
     width: 50%;
     height: 400px;
     margin-left: 50px;
-    color: #171c1f;
+    color: #1c2e4a;
     line-height: 30px;
 
 }
 
 .dennis h1 {
     text-align: start;
-    color: #282e32;
+    color: #1c2e4a;
+    ;
 }
 
 .dennis_p {
     text-align: start;
     font-size: 25px;
+    position: absolute;
+    width: 550px;
+
+
 }
 
 
