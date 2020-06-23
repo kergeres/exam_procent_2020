@@ -2,24 +2,28 @@
     height: auto;
     width: 100%;
 }
+
 .dennis_container {
 
     height: 100%;
     background-color: #D4E9F8;
 }
+
 .portre {
     width: 500px;
     height: auto;
 }
+
 .portre img {
     width: 100%;
 }
+
 .color {
     display: flex;
     justify-content: space-around;
     background-image: url("../image/bckk.png");
     padding-top: 130px;
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
 
 }
@@ -28,7 +32,6 @@
     width: 50%;
     height: 400px;
     margin-left: 50px;
-    text-align: center;
     color: #171c1f;
     line-height: 30px;
 
@@ -90,7 +93,8 @@
 }
 
 .how_started_text p {
-    color: #5a6f8a;;
+    color: #5a6f8a;
+    ;
     letter-spacing: 1px;
     line-height: 30px;
 }
@@ -123,7 +127,8 @@
 }
 
 .skills_text p {
-    color: #5a6f8a;;
+    color: #5a6f8a;
+    ;
     letter-spacing: 1px;
     line-height: 25px;
 }
@@ -145,7 +150,8 @@
 }
 
 h4 p {
-    color: #5a6f8a;;
+    color: #5a6f8a;
+    ;
 }
 
 @media screen and (max-width: 768px) {

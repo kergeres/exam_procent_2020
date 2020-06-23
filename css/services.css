@@ -1,6 +1,6 @@
 .what_offer {
     background-image: url("../image/flipped.png");
-    height: 100vh;
+    height: 70vh;
     background-size: 100%;
     background-size: cover;
     color: #2B7DBD;
@@ -53,6 +53,7 @@
     background-color: #E7F5FF;
     padding-top: 40px;
 }
+
 .small_container {
     height: auto;
     display: flex;

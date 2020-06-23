@@ -1,6 +1,6 @@
 .contact_section {
     background-image: url("../image/contact.png");
-    height: 100vh;
+    height: 70vh;
     background-size: 100%;
     background-size: cover;
 }
@@ -194,11 +194,13 @@ h2 {
         grid-column: 2/9;
         grid-row: 8/12;
     }
+
     .text_i_small {
         z-index: 1;
         grid-column: 2/9;
         grid-row: 8;
     }
+
     .contact_container {
         height: auto;
         background-color: white;
