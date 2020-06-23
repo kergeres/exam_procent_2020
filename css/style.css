@@ -11,14 +11,15 @@ body {
     display: block;
 
 }
-.they_said
-{
+
+.they_said {
     color: #2B7DBD;
     margin-left: 50%;
     transform: translateX(-25%);
     margin-top: 50px;
     white-space: nowrap;
 }
+
 nav {
     background-color: #E7F5FF;
     width: 100%;
@@ -113,7 +114,7 @@ section h1 {
 
 .frost_section {
     background-image: url("../image/Backgroud_n.jpg");
-    height: 100vh;
+    height: 80vh;
     background-size: 100%;
     background-size: cover;
 }
@@ -129,6 +130,7 @@ section h1 {
     top: 270px;
     left: 50px;
     color: white;
+    margin-bottom: 0;
 }
 
 .frost_container h1 {
@@ -137,7 +139,7 @@ section h1 {
 }
 
 .frost_container p {
-    width: 80%;
+
     line-height: 30px;
     font-size: 20px;
 }
@@ -340,11 +342,16 @@ footer div table tr td {
 
 }
 
-@keyframes text_visible
-{
-    0%{opacity: 0;}
-    100%{opacity: 1;}
+@keyframes text_visible {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
+
 .prev,
 .next {
 
@@ -389,39 +396,41 @@ footer div table tr td {
 @media screen and (max-width: 768px) {
 
     .prev,
-    .next
-    {
+    .next {
         display: none;
     }
+
     .slider_container {
-    height: 350px ;
-    background-color: white;
+        height: 350px;
+        background-color: white;
         margin-top: 50px;
 
 
-}
-    .they_said
-    {
+    }
+
+    .they_said {
         margin-left: 10%;
         transform: translateX(0);
     }
+
     .slider {
-    width: 100%;
-    height: auto;
-}
+        width: 100%;
+        height: auto;
+    }
+
     .slide {
-    padding: 4%;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    text-align: center;
-    justify-content: center;
-    font-size: 20px;
+        padding: 4%;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
 
-    line-height: 40px;
-    animation: text_visible 1.4s;
+        line-height: 40px;
+        animation: text_visible 1.4s;
 
-}
+    }
 
 
 
@@ -604,12 +613,3 @@ footer div table tr td {
     top: 1px;
     outline: none;
 }
-
-
-
-
-
-
-
-
-

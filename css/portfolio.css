@@ -15,6 +15,7 @@
     top: 150px;
     left: 100px;
     color: #255592;
+    margin-top: 50px;
 }
 
 .portfolio_p p {
@@ -23,6 +24,8 @@
 
 .portfolio_p h1 {
     margin: 0;
+    font-size: 65px;
+
 
 }
 
