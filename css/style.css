@@ -11,7 +11,14 @@ body {
     display: block;
 
 }
-
+.they_said
+{
+    color: #2B7DBD;
+    margin-left: 50%;
+    transform: translateX(-25%);
+    margin-top: 50px;
+    white-space: nowrap;
+}
 nav {
     background-color: #E7F5FF;
     width: 100%;
@@ -393,6 +400,11 @@ footer div table tr td {
 
 
 }
+    .they_said
+    {
+        margin-left: 10%;
+        transform: translateX(0);
+    }
     .slider {
     width: 100%;
     height: auto;
